@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Apr 30 10:30:01 2023
+# Process ID: 1376
+# Current directory: D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1
+# Command line: vivado.exe -log Ascon_Cifrador.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ascon_Cifrador.tcl
+# Log file: D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1/Ascon_Cifrador.vds
+# Journal file: D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1\vivado.jou
+# Running On: DESKTOP-2QT5NTK, OS: Windows, CPU Frequency: 3900 MHz, CPU Physical cores: 12, Host memory: 16963 MB
+#-----------------------------------------------------------
+source Ascon_Cifrador.tcl -notrace

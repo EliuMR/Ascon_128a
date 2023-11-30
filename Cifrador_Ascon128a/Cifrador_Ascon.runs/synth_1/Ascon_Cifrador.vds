@@ -1,0 +1,289 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Apr 30 10:30:01 2023
+# Process ID: 1376
+# Current directory: D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1
+# Command line: vivado.exe -log Ascon_Cifrador.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ascon_Cifrador.tcl
+# Log file: D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1/Ascon_Cifrador.vds
+# Journal file: D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1\vivado.jou
+# Running On: DESKTOP-2QT5NTK, OS: Windows, CPU Frequency: 3900 MHz, CPU Physical cores: 12, Host memory: 16963 MB
+#-----------------------------------------------------------
+source Ascon_Cifrador.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/utils_1/imports/synth_1/Ascon_Cifrador.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/utils_1/imports/synth_1/Ascon_Cifrador.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Ascon_Cifrador -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19152
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1834.066 ; gain = 407.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Ascon_Cifrador' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:22]
+INFO: [Synth 8-3491] module 'Maquina_Estados' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Maquina_Estados.vhd:6' bound to instance 'Estado_Acual' of component 'Maquina_Estados' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'Maquina_Estados' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Maquina_Estados.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'Maquina_Estados' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Maquina_Estados.vhd:28]
+INFO: [Synth 8-3491] module 'Bloque_Permutacion_Rondas' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:5' bound to instance 'Permutacion' of component 'Bloque_Permutacion_Rondas' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'Bloque_Permutacion_Rondas' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:13]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A1' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:13]
+INFO: [Synth 8-3491] module 'Adicion_Constante' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Adicion_Constante.vhd:6' bound to instance 'Pc' of component 'Adicion_Constante' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'Adicion_Constante' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Adicion_Constante.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Adicion_Constante' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Adicion_Constante.vhd:13]
+INFO: [Synth 8-3491] module 'Substitucion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Substitucion.vhd:4' bound to instance 'Ps' of component 'Substitucion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'Substitucion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Substitucion.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Substitucion' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Substitucion.vhd:9]
+INFO: [Synth 8-3491] module 'Difusion_Lineal' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Difusion_Lineal.vhd:4' bound to instance 'Pl' of component 'Difusion_Lineal' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'Difusion_Lineal' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Difusion_Lineal.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Difusion_Lineal' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Difusion_Lineal.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'Permutacion' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:13]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A2' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:41]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A3' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:42]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A4' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:43]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A5' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:44]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A6' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:45]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A7' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:46]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A8' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:47]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A9' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:48]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A10' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:49]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A11' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:50]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'A12' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:51]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B1' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:53]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B2' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:54]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B3' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:55]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B4' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:56]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B5' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:57]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B6' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:58]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B7' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:59]
+INFO: [Synth 8-3491] module 'Permutacion' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Permutacion.vhd:4' bound to instance 'B8' of component 'Permutacion' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'Bloque_Permutacion_Rondas' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd:13]
+INFO: [Synth 8-3491] module 'Registro_C' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Registro_C.vhd:5' bound to instance 'registro_sc' of component 'Registro_C' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'Registro_C' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Registro_C.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Registro_C' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Registro_C.vhd:11]
+INFO: [Synth 8-3491] module 'Registro_D' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Registro_D.vhd:5' bound to instance 'registro_sr' of component 'Registro_D' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'Registro_D' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Registro_D.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Registro_D' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Registro_D.vhd:11]
+INFO: [Synth 8-3491] module 'Sc' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Sc.vhd:5' bound to instance 'state_C' of component 'Sc' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'Sc' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Sc.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Sc' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Sc.vhd:15]
+INFO: [Synth 8-3491] module 'Sr' declared at 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Sr.vhd:5' bound to instance 'state_R' of component 'Sr' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'Sr' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Sr.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Sr' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Sr.vhd:18]
+WARNING: [Synth 8-614] signal 'R_entrada' is read in the process but is not in the sensitivity list [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:111]
+WARNING: [Synth 8-614] signal 'Texto0Cifrado' is read in the process but is not in the sensitivity list [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:111]
+WARNING: [Synth 8-614] signal 'Texto1Cifrado' is read in the process but is not in the sensitivity list [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:111]
+WARNING: [Synth 8-614] signal 'tag_C' is read in the process but is not in the sensitivity list [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:111]
+INFO: [Synth 8-256] done synthesizing module 'Ascon_Cifrador' (0#1) [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1927.805 ; gain = 501.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1927.805 ; gain = 501.477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1927.805 ; gain = 501.477
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-802] inferred FSM for state register 'pr_state_reg' in module 'Maquina_Estados'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    cero |                          0000001 |                              000
+                     uno |                          0000010 |                              001
+                     dos |                          0000100 |                              010
+                    tres |                          0001000 |                              011
+                  cuatro |                          0010000 |                              100
+                   cinco |                          0100000 |                              101
+                    seis |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pr_state_reg' using encoding 'one-hot' in module 'Maquina_Estados'
+WARNING: [Synth 8-327] inferring latch for variable 'TextoCifrado_reg' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:117]
+WARNING: [Synth 8-327] inferring latch for variable 'Tag_reg' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:118]
+WARNING: [Synth 8-327] inferring latch for variable 'Texto1Cifrado_reg' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:115]
+WARNING: [Synth 8-327] inferring latch for variable 'Texto0Cifrado_reg' [D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.srcs/sources_1/new/Ascon_Cifrador.vhd:113]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1927.805 ; gain = 501.477
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    192 Bit         XORs := 1     
+	   2 Input    128 Bit         XORs := 2     
+	   2 Input     64 Bit         XORs := 380   
+	   3 Input     64 Bit         XORs := 140   
++---Registers : 
+	              192 Bit    Registers := 1     
+	              128 Bit    Registers := 1     
++---Muxes : 
+	   2 Input  320 Bit        Muxes := 1     
+	   2 Input  192 Bit        Muxes := 1     
+	   3 Input  192 Bit        Muxes := 1     
+	   6 Input  192 Bit        Muxes := 1     
+	   4 Input  128 Bit        Muxes := 1     
+	   2 Input  128 Bit        Muxes := 1     
+	   6 Input  128 Bit        Muxes := 1     
+	  12 Input   64 Bit        Muxes := 20    
+	  20 Input    4 Bit        Muxes := 20    
+	   7 Input    3 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 4     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     4|
+|2     |LUT2 |   128|
+|3     |LUT3 |  4032|
+|4     |LUT4 |  1774|
+|5     |LUT5 |  3934|
+|6     |LUT6 |  2138|
+|7     |FDCE |     6|
+|8     |FDPE |     1|
+|9     |FDRE |   320|
+|10    |LD   |   640|
+|11    |IBUF |   770|
+|12    |OBUF |   384|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------+----------------+------+
+|      |Instance       |Module          |Cells |
++------+---------------+----------------+------+
+|1     |top            |                | 14131|
+|2     |  Estado_Acual |Maquina_Estados |   666|
+|3     |  registro_sc  |Registro_C      | 11425|
+|4     |  registro_sr  |Registro_D      |   242|
++------+---------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.270 ; gain = 808.941
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 2235.270 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 640 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Ascon_Cifrador' is not ideal for floorplanning, since the cellview 'Registro_C' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2278.062 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 640 instances were transformed.
+  LD => LDCE: 640 instances
+
+Synth Design complete, checksum: 9d490163
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 2278.062 ; gain = 859.965
+INFO: [Common 17-1381] The checkpoint 'D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Cifrador_Ascon128a/Cifrador_Ascon.runs/synth_1/Ascon_Cifrador.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Ascon_Cifrador_utilization_synth.rpt -pb Ascon_Cifrador_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 10:30:42 2023...

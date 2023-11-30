@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Ascon_Descifrador_behav" "xil_defaultlib.Ascon_Descifrador" -log "elaborate.log" 

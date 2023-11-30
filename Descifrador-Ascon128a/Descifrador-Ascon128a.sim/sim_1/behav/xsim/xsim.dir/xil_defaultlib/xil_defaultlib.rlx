@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Adicion_Constante.vhd,1682872709,vhdl,,,,adicion_constante,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Ascon_Descifrador.vhd,1682873210,vhdl,,,,ascon_descifrador,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd,1682872679,vhdl,,,,bloque_permutacion_rondas,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Difusion_Lineal.vhd,1682872726,vhdl,,,,difusion_lineal,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Maquina_Estados.vhd,1682872600,vhdl,,,,maquina_estados,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Permutacion.vhd,1682872695,vhdl,,,,permutacion,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Registro_C.vhd,1682872617,vhdl,,,,registro_c,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Registro_D.vhd,1682872627,vhdl,,,,registro_d,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Sc.vhd,1682872648,vhdl,,,,sc,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Sr.vhd,1682873142,vhdl,,,,sr,,,,,,,,
+D:/Documentos/Estudio/Maestria/2-Periodo/Diseno/Ascon-128a-/Descifrador-Ascon128a/Descifrador-Ascon128a.srcs/sources_1/new/Substitucion.vhd,1682872718,vhdl,,,,substitucion,,,,,,,,

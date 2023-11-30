@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Adicion_Constante.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Bloque_Permutacion_Rondas.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Difusion_Lineal.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Maquina_Estados.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Permutacion.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Registro_C.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Registro_D.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Sc.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Sr.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Substitucion.vhd" \
+"../../../../Descifrador-Ascon128a.srcs/sources_1/new/Ascon_Descifrador.vhd" \
+
+# Do not sort compile order
+nosort
